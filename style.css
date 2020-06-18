@@ -1,0 +1,95 @@
+html,
+body {
+  width: 100%;
+  margin: 15px 0px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.graph-container {
+  background: #f9f9f9c9;
+  margin: auto;
+  width: 1200px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 2px lightgray;
+}
+
+.player-graph {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  border: 1px solid lightgray;
+}
+
+.player-details {
+  display: inline-block;
+  width: 580px;
+  vertical-align: top;
+}
+
+.player-detail {
+  display: block;
+  margin: 0px 50px;
+}
+
+.player-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: system-ui;
+  margin: 20px 0px 0px 0px;
+}
+
+.map-tooltip {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 140px;
+  text-align: center;
+  font-size: 14px;
+  visibility: hidden;
+  position: absolute;
+  padding: 7px 5px;
+  font-family: system-ui;
+}
+
+.map-tooltip .head {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 12px solid rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  position: absolute;
+  top: -12px;
+  left: 64px;
+}
+
+.map-tooltip .title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.map-tooltip p {
+  margin-bottom: 0;
+}
+
+polyline {
+  opacity: 0.3;
+  stroke: black;
+  stroke-width: 2px;
+  fill: none;
+}
+.description {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.footer {
+  margin-top: 25px;
+}

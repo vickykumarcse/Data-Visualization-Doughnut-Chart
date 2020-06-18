@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment 2: Interactive Visualization Exercise</title>
+    <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">Data Visualization Doughnut Chart</a>
+        </div>
+    </nav>
+
+    <div class="graph-container">
+        <div class="player-graph">
+            <svg class="player-map"></svg>
+        </div>
+        <div class="player-details">
+            <p class="player-heading"></p>
+            <svg class="player-detail"></svg>
+        </div>
+    </div>
+    <div class="map-tooltip"></div>
+    <div class="description">Use mouseover to see the player details in tooltip.</div>
+    <div class="description">Use mouseclick to see the player average performance Bar Chart</div>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark footer">
+        <div class="container">
+        </div>
+    </footer>
+    <!-- Scripts-->
+    <script src="./scripts/d3/d3.v4.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
